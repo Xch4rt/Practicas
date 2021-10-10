@@ -17,7 +17,7 @@ int main()
     int *puntero = &var; //  le asigno a la variable puntero la direccion de memoria var
 
     cout<<"Valor de la variable: "<<var// Muestro al contenido de la variable
-    <<"\nDireccion de memoria: "<<&var // Muestro la dir de la variable
+    <<"\nDireccion de memoria: "<<puntero // Muestro la dir de la variable
     <<"\nDireccion de memoria en base 10: "<<(int)&var;
     return 0;
 }
